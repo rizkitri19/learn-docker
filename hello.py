@@ -1,1 +1,1 @@
-print("Hello, world iki piye!")
+print("apa aja")
