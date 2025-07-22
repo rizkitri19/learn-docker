@@ -1,21 +1,21 @@
-# def bubblesort(data):
-#     for i in range(len(data)-1,0,-1):
-#         for j in range(i):
-#             if data[j] > data[j+1]:
-#                 # tempat = data[j]
-#                 # data[j] = data[j+1]
-#                 # data[j+1] = tempat
-#                 data[j], data[j+1] = data[j+1], data[j]
-#         print(f"pass {len(data)-i}: {data}")
-#         # print(data)   
+def bubblesort(data):
+    for i in range(len(data)-1,0,-1):
+        for j in range(i):
+            if data[j] > data[j+1]:
+                # tempat = data[j]
+                # data[j] = data[j+1]
+                # data[j+1] = tempat
+                data[j], data[j+1] = data[j+1], data[j]
+        print(f"pass {len(data)-i}: {data}")
+        # print(data)   
         
-# # data = [8,5,4,1,2]   
+# data = [8,5,4,1,2]   
                 
-# data = input ("masukan angka: ")
-# data = list(map(int, data.split()))
-# bubblesort(data)
-# print("hasilnya")
-# print(data)
+data = input ("masukan angka: ")
+data = list(map(int, data.split()))
+bubblesort(data)
+print("hasilnya")
+print(data)
 
 def binary_search(array, velue, low, high):
     if high < low:
